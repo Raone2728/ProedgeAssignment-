@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Pro-edge Assignment (created in react)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Hosting
 
-## Available Scripts
+The application has been deployed on Netlify. You can check it out https://stupendous-flan-796e62.netlify.app/
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+To run the application locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:https://github.com/Raone2728/ProedgeAssignment
+2. Install the dependencies: npm start
+3. Start the development server:  Open [http://localhost:3000](http://localhost:3000) in your web browser to view the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Components
 
-### `npm test`
+The application is structured into the following components:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **App**: This is the main component of the application. It fetches the contact data, handles the search functionality, and renders the contact list and contact details popup.
 
-### `npm run build`
+- **ContactList**: This component receives the contact data as a prop and displays the list of contacts. It handles the click event on a contact to show the contact details popup.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **SearchBar**: This component provides the search functionality. It receives a callback function as a prop to handle the search query changes and updates the filtered contacts accordingly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **ContactPopup**: This component receives the selected contact details as props and displays them in a dismissable popup. It includes a close button to dismiss the popup.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dependencies
 
-### `npm run eject`
+The project utilizes the following dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React: A JavaScript library for building user interfaces.
+- React DOM: Provides the rendering capabilities for React components in the browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
