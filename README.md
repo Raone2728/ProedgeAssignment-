@@ -8,7 +8,7 @@ The application has been deployed on Netlify. You can check it out https://stupe
 
 To run the application locally, follow these steps:
 
-1. Clone the repository:https://github.com/Raone2728/ProedgeAssignment-/tree/main
+1. Clone the repository:https://github.com/Raone2728/ProedgeAssignment-
 2. Install the dependencies: npm start
 3. Start the development server:  Open [http://localhost:3000](http://localhost:3000) in your web browser to view the application.
 
